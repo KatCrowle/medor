@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/select2.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"></link>
+  <link rel="stylesheet" type="text/css" href="css/select2.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="header_wrapper">
+			<div class="main_width">
+				<div class="header index flex">
+					<a href="/"><img src="img/logo.svg" /></a>
+					<div class="main_info flex">
+							<a class="region_link">
+								<span>Москва</span>
+							</a>
+							<a class="main_phone" tel:+7 (495) 783 80 68>+7 (495) 783 80 68</a>
+							<div class="region_dropdown">
+								<div>
+									<a class="region_dropdown-close"></a>
+									<h3>Ваш город:</h3>
+									<span class="selected">Москва</span>
+									<span value="Санкт-Петербург">Санкт-Петербург</span>
+									<span value="Екатеринбург">Екатеринбург</span>
+									<span value="(Казахстан) Караганда">(Казахстан) Караганда</span>
+									<span>Город</span>
+									<span>Город</span>
+									<span>Город</span>
+									<span>Город</span>
+									<span>Город</span>
+									<span>Город</span>
+									<span>Город</span>
+								</div>	
+							</div>
+					</div>
+					<div class="main_nav flex">
+							<a href="">О нас</a>
+							<a href="">Наши работы</a>
+							<a href="">Контакты</a>
+					</div>
+					<a class="nav_link"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="main_dropdown blue_bg">
+		<div class="main_width">
+			<a class="nav_link close_link"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></a>
+			<div class="flex">
+				<div>
+					<img src="img/logo.svg" />
+					<div class="main_dropdown_nav">
+						<a href="">О нас</a>
+						<a href="">Отзывы</a>
+						<a href="">Контакты</a>
+						<a href="">Вакансии</a>
+					</div>
+				</div>
+				<div>
+					<div class="main_dropdown_nav">
+						<a href="">Наше портфолио</a>
+						<a href="">Реклама в СМИ</a>
+						<a href="">Реклама в интернете</a>
+						<a href="">Реклама на транспорте</a>
+						<a href="">Выставочные стенды</a>
+						<a href="">Типография</a>
+						<a href="">Наружная реклама <span>(Outdoor)</span></a>
+						<a href="">Indoor-реклама</a>
+						<a href="">BTL-агентство</a>
+						<a href="">Дизайн-студия</a>
+						<a href="">Сувенирная продукция</a>
+					</div>	
+				</div>
+				<div>
+					<div class="main_dropdown_info">
+						Телефон:
+						<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						(бесплатно по России)
+					</div>
+					<div class="main_dropdown_info">
+						По всем вопросам:
+						<a href="info@mosreklama.net">info@mosreklama.net</a>
+					</div>
+					<a class="btn btn2" data-fancybox data-src="#become" href="javascript:;">стать клиентом</a>
+					<a class="btn bnt3" data-fancybox data-src="#recall" href="javascript:;">перезвонить вам?</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="main_slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	
+				<div class="slide_content flex">
+					<div class="slide_title">Дизайн-студия</div>
+					<div class="slide_text">Мы сочетаем стратегический подход и сильное производство. Объединяем с помощью стратегии отдельные работы и методологии в комплексные проекты, которые приносят пользу компаниям и меняют их.</div>
+					<a data-fancybox data-src="#calculation" href="javascript:;" class="btn btn2">начать проект</a>
+				</div>
+			</div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+			<div class="swiper-slide" style="background-image:url(img/slide.jpg);">	<div class="slide_content flex"></div></div>
+		</div>
+		<div class="main_width slider_pagination">
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+	<section class="grey_bg main_clients_wrapper">
+		<div class="main_width">
+			<div class="main_clients flex">
+				<div>
+					<h2>Нам доверяют</h2>
+					<p>Мы сочетаем стратегический подход и сильное производство. Объединяем с помощью стратегии отдельные работы и методологии в комплексные проекты, которые приносят пользу компаниям и меняют их.</p>
+					<a class="presentation flex" href="" download>
+						<img src="img/ico_presentation.png" />
+						<b>Скачайте нашу презентацию где мы рассказываем почему с нами выгодно работать</b>
+					</a>
+					<a class="btn">стать клиентом</a>
+				</div>
+				<div>
+					<div class="clients_slider swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div><img src="img/clients/client1.png" /></div>
+								<div><img src="img/clients/client2.png" /></div>
+								<div><img src="img/clients/client3.png" /></div>
+								<div><img src="img/clients/client4.png" /></div>
+								<div><img src="img/clients/client5.png" /></div>
+								<div><img src="img/clients/client6.png" /></div>
+								<div><img src="img/clients/client7.png" /></div>
+								<div><img src="img/clients/client8.png" /></div>
+								<div><img src="img/clients/client9.png" /></div>
+							</div>
+							<div class="swiper-slide">
+								<div><img src="img/clients/client1.png" /></div>
+								<div><img src="img/clients/client2.png" /></div>
+								<div><img src="img/clients/client3.png" /></div>
+								<div><img src="img/clients/client4.png" /></div>
+								<div><img src="img/clients/client5.png" /></div>
+								<div><img src="img/clients/client6.png" /></div>
+								<div><img src="img/clients/client7.png" /></div>
+								<div><img src="img/clients/client8.png" /></div>
+								<div><img src="img/clients/client9.png" /></div>
+							</div>		
+						</div>
+						<div class="clients_pagination"></div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="main_projects_wrapper">
+		<div class="h2">Наши проекты</div>
+		<div class="main_projects">
+			<div class="flex">
+				<div>
+					<a href=""><img src="img/project1.jpg" /></a>
+				</div>
+				<div class="flex">
+					<a href=""><img src="img/project2.jpg" /></a>
+					<a href=""><img src="img/project3.jpg" /></a>
+				</div>
+				<div class="flex">
+					<a href=""><img src="img/project4.jpg" /></a>
+					<a href=""><img src="img/project5.jpg" /></a>
+				</div>
+			</div>
+			<div class="flex">
+				<div class="flex">
+					<a href=""><img src="img/project6.jpg" /></a>
+					<a href=""><img src="img/project7.jpg" /></a>
+				</div>
+				<div class="flex">
+					<a href=""><img src="img/project8.jpg" /></a>
+					<a href=""><img src="img/project9.jpg" /></a>
+				</div>
+				<div>
+					<a href=""><img src="img/project10.jpg" /></a>
+				</div>
+			</div>
+		</div>
+		<a href="" class="btn">посмотреть еще проекты</a>
+	</section>
+	<section class="blue_bg main_reviews_wrapper">
+		<div class="main_width">
+			<div class="h2">Отзывы наших клиентов</div>
+			<div class="main_reviews">
+				<div class="flex">
+					<div class="photo_review"><img src="img/review1.jpg" /></div>
+					<div class="photo_review"><img src="img/review2.jpg" /></div>
+					<div class="video_review"><img src="img/video_review1.jpg" /></div>
+				</div>
+				<div class="flex">
+					<div class="video_review"><img src="img/video_review2.jpg" /></div>
+					<div class="photo_review"><img src="img/review3.jpg" /></div>
+					<div class="photo_review"><img src="img/review4.jpg" /></div>				
+				</div>
+			</div>
+			<a href="" class="btn btn3">еще отзывы</a>
+		</div>	
+	</section>
+	<section class="main_services_wrapper">
+		<div class="main_width">
+			<div class="main_services flex">
+				<div>
+					<img src="img/ico_services_1.png" />
+					<div class="h3"><a href="">Реклама в Интернете</a></div>
+					<p>Создание сайтов. Социальные сети. Баннерная реклама. Контекстная реклама. Продвижение сайтов. 
+						Реклама в социальных сетях. Управление репутацией в интернете. Электронная рассылка. Реклама в Skype. Ваша организация на Яндексе.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_2.png" />
+					<div class="h3"><a href="">Реклама в СМИ</a></div>
+					<p>Реклама на ТВ: реклама на федеральных каналах.(реклама на Первом канале. реклама на канале Россия 1. реклама на НТВ. реклама на ТНТ. реклама на СТС.); Тематические каналы. Реклама на радио. Печатная реклама (газеты, журналы).</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_3.png" />
+					<div class="h3"><a href="">Дизайн студия</a></div>
+					<p>Дизайн буклетов. Дизайн блокнотов. Дизайн каталогов. Верстка каталогов. Дизайн календарей. Дизайн упаковки. Дизайн полиграфии. Дизайн наружной рекламы. Дизайн выставочных стендов. Создание фирменного стиля.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_4.png" />
+					<div class="h3"><a href="">Типография</a></div>
+					<p>Офсетная печать. Цифровая печать. Ролевая печать. Печать бланков. Печать брошюр. Печать буклетов. Печать газеты. Печать календарей. Печать упаковки. Печать листовок. Печать пакетов. Печать папок. Печать каталогов.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_5.png" />
+					<div class="h3"><a href="">Реклама на транспорте</a></div>
+					<p>Брендирование городского транспорта. Реклама внутри салона. Брендирование корпоративного транспорта. Реклама в метро. Реклама в поездах. Реклама в пригородных электричках. Реклама на вокзалах. Брендирование маршруток.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_6.png" />
+					<div class="h3"><a href="">Реклама в подъездах</a></div>
+					<p>Информационные стенды. Рекламные штампы. Распространение по почтовым ящикам. Квитанции ЖКХ и МГТС. Адресная рассылка. Реклама в лифтах (стикеры. зеркала. стенды). Реклама на дверных ручках.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_7.png" />
+					<div class="h3"><a href="">Размещение наружной рекламы</a></div>
+					<p>Реклама на щитах. Реклама на остановках. Дорожные ограждения. Перетяжки. Реклама на скамейках. Сити-форматы (пилоны). Указатели. Суперсайты. Ситиборды. Брендмауэры. Реклама на светодиодных экранах. Крышные панели.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_8.png" />
+					<div class="h3"><a href="">Производство наружной рекламы</a></div>
+					<p>Буквы и знаки. Вывески. Комплексное оформление. Крышные установки. Штендеры. Широкоформатная печать. Широкоформатная печать на ткани. Ростовые фигуры. Световые короба. Стенды с карманами. Таблички.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_9.png" />
+					<div class="h3"><a href="">Indoor реклама</a></div>
+					<p>Реклама в фитнес клубах. Реклама в кинотеатрах. Торговые центры. Бизнес центры. Реклама на платежных терминалах. Реклама в поликлиниках. Реклама на ледовых катках. Реклама в аэропортах. Реклама в аптеке.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_10.png" />
+					<div class="h3"><a href="">BTL Агентство</a></div>
+					<p>BTL-услуги. Промо-акции. Промоушен. Акции в торговых сетях. Промо-консультант. Семплинг. Дегустации. Мерчендайзинг. Промо-модели на выставку. Ростовые куклы. Event-услуги. Тайный покупатель. Человек-бутерброд.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_11.png" />
+					<div class="h3"><a href="">Сувенирная продукция</a></div>
+					<p>Аксессуары для курения. Брелоки. Ручки. Карандаши. Кухонные принадлежности. Зажигалки. Деловые аксессуары. Мягкие игрушки. Зонты. Награды. Посуда. Путешествие и отдых. Сумки. Часы. Эко-подарки. Флешки.</p>
+					<a href="" class="arrow"></a>
+				</div>
+				<div>
+					<img src="img/ico_services_12.png" />
+					<div class="h3"><a href="">Выставочные стенды</a></div>
+					<p>Застройка стенда. Заказать БЕСПЛАТНО 3D проект. Pop-Up стенды. Fold-Up. Press Wall стенды. Roll-Up стенды. X-banner, L-banner. Мобильные стеллажи. Мобильные ТВ-стойки. Буклетницы. Ресепшены. Уличные стенды.</p>
+					<a href="" class="arrow"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blue_bg main_digits_wrapper">
+		<div class="main_width">
+			<div class="main_digits flex">
+				<div>
+					<div>13</div>
+					<p>лет успешной работы <br/>с 2005 года занимаемся <br/>продвижением российских <br/>и международных брендов</p>
+				</div>
+				<div>
+					<div>65</div>
+					<p>персональных менеджеров <br/>и 142 сотрудника бэк-офиса <br/>помогают развивать ваш <br/>бизнес</p>
+				</div>
+				<div>
+					<div>15 890</div>
+					<p>реализованных <br/>проектов в России, <br/>СНГ, Европе <br/>и США</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main_team_wrapper">
+		<div class="main_width">
+			<div class="main_team">
+				<div class="flex">
+					<div>
+						<a href=""><img src="img/team1.jpg" /></a>
+					</div>
+					<div class="flex team_digit">
+						<strong>207</strong>
+						<b>Человек <br/>работает <br/>в Medor</b>
+					</div>
+					<div class="flex">
+						<a href=""><img src="img/team2.jpg" /></a>
+						<a href=""><img src="img/team3.jpg" /></a>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="flex">
+						<a href=""><img src="img/team4.jpg" /></a>
+						<a href=""><img src="img/team5.jpg" /></a>
+					</div>
+					<div class="flex">
+						<a href=""><img src="img/team6.jpg" /></a>
+						<a href=""><img src="img/team7.jpg" /></a>
+					</div>
+					<div>
+						<a href=""><img src="img/team8.jpg" /></a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<footer>
+		<div class="main_width">
+			<div class="footer flex">
+				<div>
+					<img src="img/logo.svg" />
+					<div class="worktime">
+						<b>Часы работы офисов:</b><br/>
+						Пн-Вс 08:00 до 23:00<br/>
+						с 19:00 дежурный менеджер
+					</div>
+				</div>
+				<div class="cities flex">
+					<div>
+						<div>
+							<b>Москва</b>
+							<a href="tel:+7 495 109 00 43">+7 495 109 00 43</a>
+						</div>
+						<div>
+							<b>Санкт-Петербург</b>
+							<a href="tel:+7 812 329 53 27">+7 812 329 53 27</a>
+						</div>
+						<div>
+							<b>(США) Лос-Анджелес</b>
+							<a href="tel:+1 929 243 91 33">+1 929 243 91 33</a>
+						</div>
+						<div>
+							<b>(США) Нью-Йорк</b>
+							<a href="tel:+1 929 243 91 33">+1 929 243 91 33</a>
+						</div>
+						<div>
+							<b>(США) Сан-Франциско</b>
+							<a href="tel:+1 929 243 91 33">+1 929 243 91 33</a>
+						</div>
+					</div>	
+					<div>
+						<div>
+							<b>(Монголия) Улан-Батор</b>
+							<a href="tel:+9 769 663 91 71">+9 769 663 91 71</a>
+						</div>
+						<div>
+							<b>(Казахстан) Караганда</b>
+							<a href="tel:+7 721 236 20 99">+7 721 236 20 99</a>
+						</div>
+						<div>
+							<b>(Казахстан) Нурсултан</b>
+							<a href="tel:+7 777 150 90 05">+7 777 150 90 05</a>
+						</div>
+						<div>
+							<b>Волгоград</b>
+							<a href="tel:+7 8442 515190">+7 8442 515190</a>
+						</div>
+						<div>
+							<b>Воронеж</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+					</div>	
+					<div>
+						<div>
+							<b>Геленджик</b>
+							<a href="tel:8 918 113 50 70">8 918 113 50 70</a>
+						</div>
+						<div>
+							<b>Екатеринбург</b>
+							<a href="tel:+7 996 575 08 66">+7 996 575 08 66</a>
+						</div>
+						<div>
+							<b>Казань</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+						<div>
+							<b>Краснодар</b>
+							<a href="tel:8 961 533 10 07">8 961 533 10 07</a>
+						</div>
+						<div>
+							<b>Набережные Челны</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+					</div>	
+					<div>
+						<div>
+							<b>Нижний Новгород</b>
+							<a href="tel:8 800 505 54 32">	8 800 505 54 32</a>
+						</div>
+						<div>
+							<b>Новороссийск</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+						<div>
+							<b>Новосибирск</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+						<div>
+							<b>Пермь</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+						<div>
+							<b>Челябинск</b>
+							<a href="tel:8 800 505 54 32">8 800 505 54 32</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="popup recall" style="display:none;" id="">
+		<div class="h3">Обратный звонок</div>
+		<form>
+			<input type="text" class="form_control" placeholder="Представьтесь пожалуйста" />
+			<input type="text" class="form_control masked" placeholder="+7 (___) ___-__-__" />
+			<button type="submit" class="btn btn2">перезвоните мне</button>
+		</form>
+		<span>Нажимая кнопку «Отправить заявку» я соглашаюсь с политикой</br> конфиденциальности и обработки персональных данных</span>
+	</div>
+	<div class="popup calculation" style="display:none;" id="calculation">
+		<div class="h3">Рассчитать проект</div>
+		<form>
+			<input type="text" class="form_control" placeholder="Представьтесь пожалуйста" />
+			<input type="text" class="form_control" placeholder="Как с вами связаться?" />
+			<textarea class="form_control" placeholder="Краткое описание проекта"></textarea>
+			<a class="upload"><img src="img/upload_ico.png" />Загрузить файл</a>
+			<button type="submit" class="btn">рассчитать проект</button>
+		</form>
+		<span>Нажимая кнопку «Отправить заявку» я соглашаюсь с политикой</br> конфиденциальности и обработки персональных данных</span>
+	</div>
+	<div class="popup become" style="display: none;" id="become">
+		<div class="become_head">
+			<div class="become_content">
+				<div class="h1">Стать клиентом</div>
+				<div class="h3">
+					Перед началом работы мы просим клиентов ответить на пару вопросов
+				</div>
+				<p>
+					Ваши ответы — лучшая заявка для нас. На их основе мы поймем, чем сможем быть полезны: соберем информацию и подготовимся ко встрече. Так наш первый разговор будет предметным.
+				</p> 
+			</div>
+		</div>
+		<div class="become_body">
+			<div class="become_content">
+				<div class="h4">
+					Напишите письмо в свободной форме либо ответьте на список вопросов
+				</div>
+				<form>
+					<div class="flex become_form">
+						<div>
+							<input type="text" class="form_control" placeholder="Представьтесь пожалуйста" />
+							<input type="text" class="form_control" placeholder="Компания" />
+							<textarea class="form_control" placeholder="Расскажите о своем проекте"></textarea>
+						</div>
+						<div>
+							<input type="text" class="form_control masked" placeholder="+7 (___) ___-__-__" />
+							<input type="text" class="form_control" placeholder="Электронная почта" />
+							<h4>Чем вы занимаетесь?</h4>
+							<p>Расскажите о своей компании. Как работаете, на чем зарабатываете? Кто ваши конкуренты? Чем вы от них отличаетесь?
+								</p>
+							<h4>В чем ваша задача?</h4>
+							<p>Чего хотите достичь в ближайшем будущем? Что вам мешает?</p>
+							<h4>Каким вы видите решение задачи?</h4>
+							<p>Как планируете достичь своих целей? Какие решения пробовали раньше?</p>
+							<h4>Какие у вас ожидания от результата?</h4>
+							<p>В каком виде вы хотите видеть решение вашей задачи? В какой срок? Почему он важен? На что это должно быть похоже?</p>
+							<h4>Сколько денег планируете потратить?</h4>
+							<p>Каков ваш бюджет? Почему вы готовы потратить именно такую сумму?</p>
+						</div>
+					</div>
+					<a class="upload"><img src="img/upload_ico.png" />Загрузить файл</a>
+					<div class="ta_c">
+						<button type="submit" class="btn">рассчитать проект</button>
+						<span>Нажимая кнопку «Отправить заявку» я соглашаюсь с политикой</br> конфиденциальности и обработки персональных данных</span>
+					</div>
+				</form>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="popup success" style="display:none;" id="recall">
+		<div class="h3">Спасибо!</div>
+		<p>
+			Ваша заявка принята. <br/>Наши менеджеры свяжутся с Вами в ближайшее время.
+		</p>
+	</div>
+</body>
+</html>
